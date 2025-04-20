@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishna Agrawal - Portfolio</title>
+  <link rel="icon" "type="image/jpg" href="assets/icon.jpg">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="" />
+      Krishna Agrawal
+    </div>
+    <nav id="navbar">
+      <span data-tab="home" class="active">Home</span>
+      <span data-tab="skills">Skills</span>
+      <span data-tab="projects">Projects</span>
+      <span data-tab="contacts">Contacts</span>
+    </nav>
+    <div class="icon-bar" id="menuToggle">
+      &#9776;
+    </div>
+  </header>
+
+  <!-- Home -->
+  <main>
+    <section class="home" id="home">
+      <div class="content">
+        <div class="name">
+          HEY I AM <span>Krishna Agrawal</span>
+        </div>
+        <div class="des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus consequatur voluptate! Ad enim eveniet ab cupiditate vel autem amet saepe. Maiores quibusdam reiciendis, quis esse facere illo, deserunt dicta laudantium fugit architecto modi ad sint ipsa perferendis laborum ipsum saepe itaque quam inventore similique aspernatur tempore quo fuga vitae.
+        </div>
+        <a href="assets/Krishna_Final.pdf" target="_blank" rel="noopener noreferrer" class="animation active">
+          Download My CV
+        </a>
+      </div>
+      <div class="avatar">
+        <div class="card">
+          <img src="assets/Krishna.png" alt="Krishna Agrawal" />
+          <div class="info">
+            <div>Software Developer</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- skills -->
+    <section class="skills" id="skills">
+      <div class="title animation">What Skills I Have ?</div>
+      <div class="des animation">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique veritatis, doloremque ipsam eum facere sit, totam obcaecati quaerat, impedit non praesentium itaque? Esse, recusandae delectus debitis magnam nostrum fugiat officiis?
+      </div>
+      <div class="list">
+        <div class="item animation"><i class="fab fa-python"></i><h3>Python</h3></div>
+        <div class="item animation"><i class="fab fa-dropbox"></i><h3>MySQL</h3></div>
+        <div class="item animation"><i class="fab fa-c"></i><h3>C/C++</h3></div>
+        <div class="item animation"><i class="fab fa-html5"></i><h3>HTML</h3></div>
+        <div class="item animation"><i class="fab fa-css3-alt"></i><h3>CSS</h3></div>
+        <div class="item animation"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+      </div>
+    </section>
+    
+    <!-- projects -->
+    <section class="projects" id="projects">
+      <div class="title animation">Some of My Projects</div>
+      <div class="des animation">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quasi dolore ex beatae in necessitatibus quo dolorum impedit deleniti tempore, dolorem molestias voluptatum illum odio ad itaque exercitationem expedita amet soluta voluptate! Voluptates voluptate voluptatibus illum rerum dolor porro animi.
+      </div>
+      <div class="list">
+        
+        <!-- Selection Sort -->
+        <div class="item animation">
+          <div class="images">
+            <img src="assets/selection-sort.png" alt="Selection sort" />
+          </div>
+          <div class="content">
+            <h3>Selection Sort Visualizer</h3>
+            <div class="des">
+              Selection Sort Visualizer is a web app that visually demonstrates selection sort with animated, color-coded bars for easy understanding.
+              <a href="https://github.com/KrishnaCodeCrafter/SelectionSort-Visualizer/" target="_blank" rel="noreferrer">Project Link</a>
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-person-circle-question"></i></div>
+              <div>
+                <h4>Mission</h4>
+                <div class="des">Visualizing the Selection Sort algorithm through interactive animations and user-friendly controls</div>
+              </div>
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-earth-americas"></i></div>
+              <div>
+                <h4>Tech Stack</h4>
+                <div class="des">HTML, CSS, Javascript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Chatting Application -->
+        <div class="item animation">
+          <div class="images">
+            <img src="assets/chatting.png" alt="Chatting Application" />
+          </div>
+          <div class="content">
+            <h3>Chatting Application</h3>
+            <div class="des">
+              A multithreaded console-based chat application in C++ using WinSock. It supports multiple clients, real-time messaging, colored output, and server-side commands like #stop and #list.
+              <a href="https://github.com/KrishnaCodeCrafter/Chatting-Application" target="_blank" rel="noreferrer">Project Link</a>
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-person-circle-question"></i></div>
+              <div>
+                <h4>Mission</h4>
+                <div class="des">C++ Socket Programming, Multithreading, Real-time Messaging, WinSock API, Client Management, Server Monitoring</div>
+              </div>
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-earth-americas"></i></div>
+              <div>
+                <h4>Tech Stack</h4>
+                <div class="des"> C++, Winsock2, Multithreading, Socket Programming</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Paint Application -->
+        <div class="item animation">
+          <div class="images">
+            <img src="assets/paint-example.jpeg" alt="Paint Application" />
+          </div>
+          <div class="content">
+            <h3>Paint Application</h3>
+            <div class="des">
+              This is a paint clone web app that lets users draw, erase, and fill colors on a canvas. It includes tools for adjusting brush size and color, clearing the canvas, saving/loading drawings to local storage, and downloading the canvas as an image. It's optimized for desktop use.
+              <a href="https://github.com/KrishnaCodeCrafter/Paint-Application" target="_blank" rel="noreferrer">Project Link</a>
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-person-circle-question"></i></div>
+              <div>
+                <h4>Mission</h4>
+                <div class="des">Front-end Development, UI/UX Design, Drawing Tools Implementation</div>
+              </div>
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-earth-americas"></i></div>
+              <div>
+                <h4>Tech Stack</h4>
+                <div class="des">HTML, CSS, Javascript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Tic-Tac-Toe -->
+        <div class="item animation">
+          <div class="images">
+            <img src="assets/tictactoe.png" alt="Tic-Tac-Toe" />
+          </div>
+          <div class="content">
+            <h3>Tic-Tac-Toe</h3>
+            <div class="des">
+              A web-based Tic Tac Toe game where players can play against each other or the computer. It features an interactive design, SVG elements for the game board, and includes settings and a reset option. Built using HTML, CSS, and JavaScript.
+              <a href="https://github.com/KrishnaCodeCrafter/Tic-Tac-Toe" target="_blank" rel="noreferrer">Project Link</a>
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-person-circle-question"></i></div>
+              <div>
+                <h4>Mission</h4>
+                <div class="des">Create an engaging, interactive Tic Tac Toe game with a user-friendly interface and a responsive design for both desktop and mobile platforms. Focus on system design and smooth user experience.</div>
+              </div>
+              
+            </div>
+            <div class="mission">
+              <div><i class="fas fa-earth-americas"></i></div>
+              <div>
+                <h4>Languages</h4>
+                <div class="des">HTML, CSS, JavaScript</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <section class="contacts" id="contacts">
+      <div class="title animation">I am just a Click Away!</div>
+      <div class="des animation">
+        Feel free to reach out and let's turn ideas into reality. Whether you have a project in mind, want to discuss collaboration opportunities, or just fancy a good conversation, my inbox is always open. Let's connect and explore the possibilities together. Your message is the next chapter in this creative journey, and I'm excited to be a part of it.
+      </div>
+    
+      <div class="list animation">
+        <!-- Phone -->
+        <div class="item">
+          <h3>Phone Number</h3>
+          <a href="tel:9078522307" target="_blank" rel="noreferrer">+91 90785 22307</a>
+        </div>
+    
+        <!-- Email -->
+        <div class="item">
+          <h3>Email</h3>
+          <a href="mailto:krishna9078agrawal@gmail.com" target="_blank" rel="noreferrer">krishna9078agrawal@gmail.com</a>
+        </div>
+      </div>
+    
+      <div class="social-section animation">
+        <h2 style="text-align: center; margin-top: 40px;">Social Links</h2>
+        <div class="socialList">
+          <!-- LinkedIn -->
+          <div>
+            <a class="list" href="https://www.linkedin.com/in/krishna-agrawal-0294b4296/" target="_blank" rel="noreferrer">
+              <img src="assets/linkedin.png" alt="LinkedIn" style="width: 40px; height: 40px;" />
+            </a>
+          </div>
+    
+          <!-- GitHub -->
+          <div>
+            <a class="list" href="https://github.com/KrishnaCodeCrafter" target="_blank" rel="noreferrer">
+              <img src="assets/github.png" alt="GitHub" style="width: 40px; height: 40px;" />
+            </a>
+          </div>
+    
+          <!-- LeetCode -->
+          <div>
+            <a class="list" href="https://leetcode.com/u/KingAgrawal/" target="_blank" rel="noreferrer">
+              <img src="assets/leetcode.jpeg" alt="LeetCode" style="width: 40px; height: 40px;" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
