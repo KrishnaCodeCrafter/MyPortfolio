@@ -200,7 +200,7 @@ section.skills {
             transform: translate(-50%, -50%);
             pointer-events: none;
             border-radius: 20px;
-            filter: blur(50px);
+            filter: blur(40px);
         }
 
         & .item {
@@ -315,20 +315,6 @@ section.certifications {
         padding: 20px;
         /* Added padding around the list for better framing */
         box-sizing: border-box;
-
-        &::before {
-            position: absolute;
-            content: '';
-            width: 70%;
-            height: 70%;
-            background-image: linear-gradient(-45deg, #E945E3, #6C63FF);
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            pointer-events: none;
-            border-radius: 20px;
-            filter: blur(50px);
-        }
 
         & .item {
             backdrop-filter: blur(50px);
